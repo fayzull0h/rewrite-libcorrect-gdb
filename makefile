@@ -23,4 +23,5 @@ libs: ${LIBS}
 PHONY: clean
 
 clean:
-	rm *.o
+	rm libs/*.o
+	rm test
